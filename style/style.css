@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body
+{
+    height: 100vh;
+}
+
+.container
+{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+#refresh--button
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}

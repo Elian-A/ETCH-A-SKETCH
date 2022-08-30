@@ -14,6 +14,7 @@ class Pixel
 
     changeDivsColor()
     {
+        
         this.divElement.style.backgroundColor = this.randomColor();
     }
 
